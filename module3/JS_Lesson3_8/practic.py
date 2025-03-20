@@ -1,0 +1,22 @@
+import  turtle
+t = turtle.Turtle()
+screen = turtle.Screen()
+screen.setup(600,600)
+t.penup()
+t.goto(0,200)
+t.pendown()
+t.hideturtle()
+text = screen.textinput("Game", "enter your text")
+t.write(1,move=False,align="center", font=("Arial", 16, "normal"))
+turtle.done()
+# t = turtle.Turtle()
+# screen = turtle.Screen()
+# screen.setup(width=800, height=600)
+#
+# # 150,150
+# t.hideturtle()
+# t.penup()
+# t.goto(150, 150)
+# t.pendown()
+# t.write("text", move=False, align="Left", font=("Arial", 8, "bold"))
+# turtle.done()
